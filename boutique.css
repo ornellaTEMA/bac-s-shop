@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700;1,900&family=Qwitcher+Grypen:wght@700&display=swap');
+
+body {
+    line-height: 1.4;
+    font-size: 15px;
+    color: #898fa1;
+    font-family: 'lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(137, 43, 226, 0.733);
+    text-align: center;
+}
+
+.btn{
+    margin-top: 45px;
+}
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 4px rgba(137, 43, 226, 0.733);
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar .nav-link {
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    height: 20px;
+}
+
+.nav-item .nav-link:hover {
+    color:rgba(137, 43, 226, 0.733) ;
+}
+
+.logo_text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+#home {
+    background: url(./Asset/afrositbac.png);
+    min-height: 2VH;
+    background-position-x: right;
+    background-position-y: 80%;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+
+}
+#home h1{
+    font-weight: 700;
+}
+.ICXI{
+    color:blue;
+    margin-top: 90px;
+} 
+i{
+    border: 1px solid rgba(137, 43, 226, 0.733);
+    padding: 12px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.075);
+    margin-left: 12px;
+    font-size: x-small;
+    box-shadow: 1px 2px 3px rgba(137, 43, 226, 0.733);
+}
+.carossel{
+    box-shadow: .5px .5px 1px 2px  rgba(137, 43, 226, 0.568);
+    margin-top: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.carossel_Men{
+    margin-top: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.parag_bag{
+    margin-top: 200px;
+}
+#exposition{
+    margin-top: 50px;
+    border: solid #0000ff13;
+    border-radius: 50px;
+    overflow-y: hidden;
+}
+.bag_description{
+    margin-top: 150px;
+    text-align: center;
+}
+.bac_name{
+    font-weight: bold;
+    color: blue;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgba(137, 43, 226, 0.568);
+}
+.bac_price{
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px ;
+}
+.add_to_checkbox{
+    background-color:rgba(137, 43, 226, 0.733);
+    justify-content: center;
+    padding: 7px;
+    margin-top: 80px;
+    width: 300px;
+    height: 60px;
+    border: 3px blue;
+    text-decoration: none;
+}
+.add_to_checkbox a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.add_to_checkbox:hover{
+    background-color:rgba(240, 97, 216, 0.733);
+    transform: scale(0,0,0,3);
+    transition: .8s ease;
+    padding-right: 10px;
+    font-weight: 1000;
+}
+.bac_exposition img{
+ border-radius: 5px;
+ box-shadow: 2px 2px 2px 2px white;
+}
+.date_publication{
+    margin-top: -50px;
+}
+#exposition_Men{
+    margin-top: 50px;
+    border: solid white;
+    border-radius: 50px;
+    overflow-y: hidden;
+}
+.add_to_checkbox_men{
+    background-color: blue;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 80px;
+    width: 300px;
+    height: 60px;
+    border: 3px blue;
+    text-decoration: none;
+}
+.add_to_checkbox_men a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+.add_to_checkbox_men:hover{
+    background-color:rgba(137, 43, 226, 0.733);
+    transform: scale(0,0,0,4);
+    transition: .8s ease;
+    padding-right: 10px;
+    font-weight: 1000;
+}
+.content_men{
+    border: solid rgba(137, 43, 226, 0.568);
+    border-radius: 7px;
+    margin-bottom: 70px;
+}
+.exposition_Men{
+    border-bottom: solid blue 100% 3px;
+}
+.next{
+    margin-top: 100px;
+    background-position-y: 10% ;
+    background-color: blue ;
+    border: rgba(240, 97, 216, 0.733);
+    box-shadow: 1px 1px 2Px 1px rgba(137, 43, 226, 0.733); 
+    border-radius:10px ;
+    
+}
+.next:hover{
+    background-image: url(../Bagshop/Asset/Afrodesign.png) ;
+    box-shadow: 1px 1px 2Px 1px rgba(240, 97, 216, 0.733);
+}
+
+.next a {
+    width: 35%;
+    font-size: 30px;
+    color: white; 
+    font-weight: bolder;
+    text-decoration: none;
+}
+.next a:hover{
+    color: white;
+}
+button .next{
+    justify-content: center;
+}
+.parag_bag{
+    font-weight: bold;
+    font-size: x-large;
+}

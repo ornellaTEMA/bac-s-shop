@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700;1,900&family=Qwitcher+Grypen:wght@700&display=swap');
+
+body {
+    line-height: 1.4;
+    font-size: 15px;
+    color: #898fa1;
+    font-family: 'lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(137, 43, 226, 0.733);
+    text-align: center;
+}
+
+.btn{
+    margin-top: 45px;
+}
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 4px rgba(137, 43, 226, 0.733);
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar .nav-link {
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    height: 20px;
+}
+
+.nav-item .nav-link:hover {
+    color:rgba(137, 43, 226, 0.733) ;
+}
+
+.logo_text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+#home {
+    background: url(./Asset/afrositbac.png);
+    min-height: 2VH;
+    background-position-x: right;
+    background-position-y: 80%;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+
+}
+#home h1{
+    font-weight: 700;
+}
+.ICXI{
+    color:blue;
+    margin-top: 90px;
+} 
+i{
+    border: 1px solid rgba(137, 43, 226, 0.733);
+    padding: 12px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.075);
+    margin-left: 12px;
+    font-size: x-small;
+    box-shadow: 1px 2px 3px rgba(137, 43, 226, 0.733);
+}
+#services{
+    text-align: center;
+}
+.service{
+    margin-bottom: 60px;
+}
+.trait{
+    width: 120px;
+    height: 2px;
+    background-color: rgb(0,0,0,.2);
+    margin: 16px auto 0 auto;
+}
+.Apropos_concept{
+    border-right: solid 3px rgba(137, 43, 226, 0.733) ;
+    color: rgba(0, 0, 255, 0.63);
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+.Apropos_contact{
+    color: rgba(0, 0, 255, 0.459);
+    font-size: xx-large;
+    text-transform: uppercase;
+}

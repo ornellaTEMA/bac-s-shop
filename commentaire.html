@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP3 bootstrat</title>
+  <link rel="stylesheet" href="commentaire.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white ">
+    <div class="container">
+      <a class="navbar-brand logo_text" href="#"> icxi </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- ms pour margin left -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" id="Acceuil">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="boutique.html">Boutique</a>
+          </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link" href="sacafritude.html">supprise</a>
+              </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="Apropos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="commentaire.html">Commentaires</a>
+          </li>
+        </ul>
+        <i class="fa fa-shopping-basket"></i>
+        <i class="fa fa-user"></i>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+      </div>
+    </div>
+  </section>
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <form id="form" action="lien vers lequel le client sera rediriger quand il aura soumis le doc">
+          <fieldset class="fieldset">
+            <legend class="nous_contacter"> Nous contacter </legend>
+            <div>
+              <label for="name"> pseudo </label>
+              <input class="input_name" type="Name" name="Name" id="Name" autofocus maxlength="3"
+                placeholder="entrez votre speudo">
+            </div>
+            <div>
+              <label for="name"> Numéro </label>
+              <input class="input_name " type="Name" name="Name" id="Name" autofocus maxlength="3"
+                placeholder="numéro de telephone">
+            </div>
+            <div>
+              <textarea name="message" id="message" cols="50" rows="7"
+                placeholder="inserer votre message ici"> Message </textarea>
+            </div>
+            <div>
+              <button class="send" type="submit"> send </button>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-4">
+        <aside class="aside">
+          <div class="sidebar_title"> Commentaires </div>
+          <div class="friend_list">
+            <div class="friend">
+              <img class="friend_avatar" src="./Asset/sactrend.png" alt=" photo Avatar ">
+              <div class="friend_body">
+                <div class="friend_name">Zoezi77</div>
+                <div class="friends_connexions"> Merci encore pour le sac que j'ai acheté. <br> 
+                  5ans déja que je l'utilise tout les jours </div>
+              </div>
+            </div>
+          </div>
+          <div class="friend_list">
+            <div class="friend">
+              <img class="friend_avatar" src="./Asset/les-hommes-dirigent-le-profil-plat-de-style-d-illustration-de-vecteur-de-hippie-95708142.jpg " alt="">
+              <div class="friend_body">
+                <div class="friend_name">Robin22</div>
+                <div class="friends_connexions"> J'ai adoré le cadeau que j'ai achété qur ce site   </div>
+              </div>
+            </div>
+          </div>
+          <div class="friend_list">
+            <div class="friend">
+              <img class="friend_avatar" src="./Asset/SacocheH1.png" alt="Avatar">
+              <div class="friend_body">
+                <div class="friend_name">Regis ATEMENGUE</div>
+                <div class="friends_connexions"> Bonjour , quand la prochaine commande <br> 
+                  de sac hermes Hommes sera t'elle disponible? </div>
+              </div>
+            </div>
+          </div>
+          <div class="friend_list">
+            <div class="friend">
+              <img class="friend_avatar" src="./Asset/449e5e93c14f34fb7b90559e4f9908ab.jpg" alt="">
+              <div class="friend_body">
+                <div class="friend_name"> Claire72</div>
+                <div class="friends_connexions"> Merci encore pour la livraison rapide</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+  <div>
+    .
+  </div>
+</body>
+
+
+</html>

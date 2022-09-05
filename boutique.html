@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP3 bootstrat</title>
+  <link rel="stylesheet" href="boutique.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white ">
+    <div class="container">
+      <a class="navbar-brand logo_text" href="#"> icxi </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <!-- ms pour margin left -->
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html" id="Acceuil">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="boutique.html">Boutique</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="sacafritude.html">supprise</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="Apropos.html">A propos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="commentaire.html">Commentaires</a>
+          </li>
+        </ul>
+        <i class="fa fa-shopping-basket"></i>
+        <i class="fa fa-user"></i>
+      </div>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+      </div>
+    </div>
+  </section>
+  <section class="row">
+    <div class="col-lg-7">
+      <div id="carouselExampleCaptions" class="carousel slide carossel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Asset/Womenbagpink.png" class="d-block w-100" alt="sac femme marron sur fond rose">
+          </div>
+          <div class="carousel-item">
+            <img src="./Asset/loopres.png" class="d-block w-100" alt="ensemble petit sacs femme">
+
+          </div>
+          <div class="carousel-item">
+            <img src="./Asset/saclogo.png" class="d-block w-100" alt="sac bleu femme ouvert">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="col-5">
+      <P class="parag_bag"> “Le sac à main des femmes est une véritable boîte à outils, <br>
+        comme en trimbalent les plombiers. Et toute la journée, dès qu'elles ont un moment, elles réparent.” </P>
+    </div>
+    </div>
+  </section>
+
+  <section class="row" id="exposition" g-0>
+    <div class="col-6">
+      <div class="bag_description">
+        <p class="bac_name"> HERMES </p>
+        <p class="bac_price"> 25.000 FCFA/pièce </p>
+        <p class="date_publication"> Ajouté le 04/09/2022 23:06:14</p>
+        <button class="add_to_checkbox"> <a href="#">Ajouter au panier >> </a> </button>
+      </div>
+    </div>
+    <div class="col-6">
+      <div>
+        <div class="bac_exposition">
+          <img src="./Asset/EnsemblesacW.png" alt="collection sac  hermes">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div>
+          <div class="bac_exposition">
+            <img src="./Asset/sacRosechic.png" alt="collection sac  hermes">
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="bag_description">
+          <p class="bac_name"> Louis VUITON</p>
+          <p class="bac_price"> 30.000 Fcfa </p>
+          <p class="date_publication"> Ajouté le 04/09/2022 23:09:50</p>
+          <button class="add_to_checkbox"> <a href="#">Ajouter au panier >> </a> </button>
+        </div>
+      </div>
+    </div>
+ </section>
+
+  <div class="container content_men">
+
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-7">
+        <div id="carouselExampleCaptions" class="carousel slide carossel_Men" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Asset/SacHomme1.png" class="d-block w-100" alt="sac femme marron sur fond rose">
+            </div>
+            <div class="carousel-item">
+              <img src="./Asset/sachomme2.png" class="d-block w-100" alt="ensemble petit sacs femme">
+
+            </div>
+            <div class="carousel-item">
+              <img src="./Asset/SactisséNh.png" class="d-block w-100" alt="sac bleu femme ouvert">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-5">
+        <P class="parag_bag"> “Le style n'est rien, mais rien n'est sans le style.” <br>
+          “Le style, c'est l'homme ; quand le style est obscur, il faut déjà s'inquiéter.”
+      </div>
+    </div>
+    <section class="row" id="exposition_Men">
+      <div class="col-6">
+        <div class="bag_description">
+          <p class="bac_name"> giorgio Armani </p>
+          <p class="bac_price"> 15.000 FCFA/pièce </p>
+          <p class="date_publication"> Ajouté le 05/09/2022 11:54:52</p>
+          <button class="add_to_checkbox_men"> <a href="#">Ajouter au panier >> </a> </button>
+        </div>
+      </div>
+      <div class="col-6">
+        <div>
+          <div class="bac_exposition">
+            <img src="./Asset/SacocheH2.png" alt="sac Louis VUITON Homme">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div>
+            <div class="bac_exposition">
+              <img src="./Asset/giorgioArmaniH.png" alt="collection sac  hermes">
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="bag_description">
+            <p class="bac_name"> Louis VUITON</p>
+            <p class="bac_price"> 30.000 Fcfa </p>
+            <p class="date_publication"> Ajouté le 04/09/2022 23:09:50</p>
+            <button class="add_to_checkbox_men"> <a href="#">Ajouter au panier >> </a> </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container content_men"></div>
+    <div class="row">
+        <div class="col-7">
+          <div id="carouselExampleCaptions" class="carousel slide carossel" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Asset/sacgirly.png" class="d-block w-100" alt="sac femme marron sur fond rose">
+              </div>
+              <div class="carousel-item">
+                <img src="./Asset/ChildBagEnsemble.jpg" class="d-block w-100" alt="ensemble petit sacs femme">
+
+              </div>
+              <div class="carousel-item">
+                <img src="./Asset/Sacenfant2.png" class="d-block w-100" alt="sac bleu femme ouvert">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-5">
+          <P class="parag_bag"> “L'enfant est le père de l'humanité ” </P>
+        </div>
+      </div>
+    
+
+    <section class="row" id="exposition" g-0>
+      <div class="col-6">
+        <div class="bag_description">
+          <p class="bac_name"> HELLO KITTY </p>
+          <p class="bac_price"> 10.000 FCFA</p>
+          <p class="date_publication"> Ajouté le 05/09/2022 12:35:39</p>
+          <button class="add_to_checkbox"> <a href="#">Ajouter au panier >> </a> </button>
+        </div>
+      </div>
+      <div class="col-6">
+        <div>
+          <div class="bac_exposition">
+            <img src="./Asset/SacàdosPF1.png" alt="collection sac  hermes">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <div>
+            <div class="bac_exposition">
+              <img src="./Asset/Sacenfant2.png" alt="collection sac  hermes">
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="bag_description">
+            <p class="bac_name"> FREEGUN </p>
+            <p class="bac_price"> 15.000FCFA / Pièce</p>
+            <p class="date_publication"> Ajouté le 04/09/2022 23:09:50</p>
+            <button class="add_to_checkbox"> <a href="#">Ajouter au panier >> </a> </button>
+          </div>
+        </div>
+      </div>
+   </section>
+ </div>
+  <div class="row">
+    <div class="col-6"></div>
+    <div class="col-6"><button class="next w-100 "> <a href="sacafritude.html"> Pac supprise >></a> </button></div>
+  </div>
+  <div>
+    .
+  </div>
+
+
+
+
+
+  <script src="./js/bootstrap.js"></script>
+</body>
+
+</html

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,700;1,900&family=Qwitcher+Grypen:wght@700&display=swap');
+
+body {
+    line-height: 1.4;
+    font-size: 15px;
+    color: #898fa1;
+    font-family: 'lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:rgba(137, 43, 226, 0.733);
+    text-align: center;
+}
+
+.btn{
+    margin-top: 45px;
+}
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+
+}
+
+img {
+    width: 100%;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.navbar {
+    box-shadow: 2px 2px 4px rgba(137, 43, 226, 0.733);
+    position: fixed;
+    width: 100%;
+
+}
+
+.navbar .nav-link {
+    font-size: 13px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    height: 20px;
+}
+
+.nav-item .nav-link:hover {
+    color:rgba(137, 43, 226, 0.733) ;
+}
+
+.logo_text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: blue;
+}
+
+#home {
+    background: url(./Asset/afrositbac.png);
+    min-height: 100VH;
+    background-position-x: right;
+    background-position-y: 80%;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+}
+#home h1{
+    font-weight: 700;
+}
+.ICXI{
+    color:rgba(137, 43, 226, 0.733);
+    margin-top: 90px;
+} 
+.btn{
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 12px 12px;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #F4CFDF;
+}
+hr{
+    width: 30%;
+    justify-content: center;
+}
+.section_intro .trait{
+    width: 120px;
+    height: 2px;
+    background-color: rgb(0,0,0,.2);
+    margin: 16px auto 0 auto;
+}
+.card{
+    margin-top: 20px;
+}
+#bag_categorie{
+    margin-top: -80px;
+}
+.sac_categorie{
+    overflow:hidden;
+    position: relative;
+}
+.sac_categorie img,
+.sac_categorie_couverture .sac_categorie
+{
+    transition: all 0.4s ease;
+}
+.sac_categorie_couverture{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(43, 55, 226, 0.733) ;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+.sac_categorie_couverture_child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffffbb ;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+.sac_categorie_couverture_femme{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(240, 97, 216, 0.733) ;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    opacity: 0;
+}
+   
+.sac_categorie_couverture h3{
+    color: aliceblue; 
+    font-weight: bold;
+}
+.sac_categorie_couverture_child h3{
+    color: rgba(137, 43, 226, 0.733) ; 
+    font-weight: bold;
+}
+.sac_categorie_couverture_femme h3{
+    color: aliceblue; 
+    font-weight: bold;
+}
+.sac_categorie:hover .sac_categorie_couverture{
+    opacity: 1;
+}
+.sac_categorie:hover .sac_categorie_couverture_child{
+    opacity: 1;
+}
+.sac_categorie:hover .sac_categorie_couverture_femme{
+    opacity: 1;
+}
+.sac_categorie:hover img{
+    transform: scale(1.1);
+}
+.section_intro{
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+#button{
+    
+    background-color:rgba(137, 43, 226, 0.733);
+    justify-content: center;
+    padding: 7px;
+    margin-top: 80px;
+    width: 300px;
+    height: 60px;
+    border: 3px blue;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+#button:hover{
+    background-color:blue;
+    transform: scale(1,1.5);
+    transition: .8s ease;
+    border: 3px rgba(240, 97, 216, 0.733);
+    border-radius: 8px;
+    font-weight: 1000;
+}
+i{
+    border: 1px solid rgba(137, 43, 226, 0.733);
+    padding: 12px;
+    border-radius: 50%;
+    background-color: rgba(137, 43, 226, 0.075);
+    margin-left: 12px;
+    font-size: x-small;
+    box-shadow: 1px 2px 3px rgba(137, 43, 226, 0.733);
+}
